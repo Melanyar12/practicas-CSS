@@ -49,3 +49,45 @@ a.item_menu:hover{
     padding: 10px;
     box-shadow: 10px 5px 5px gray;
 }
+#deg1{
+    height: 500px;
+    background-image: linear-gradient(blue, rgb(171,220,239));
+}
+#deg2{
+    height: 200px;
+    background-image: linear-gradient(blue, white,green);
+}
+@font-face {
+    font-family: 'Instagram';
+    src: url('Instagram.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+#deg3{
+    font-family: Instagram;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-image: linear-gradient(to right,#523FCF,#AF289D,#E8223C,#f6BA50);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#img1{
+    border: 5px solid red;
+    width: 30%;
+}
+#img2{
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid gray;
+}
+#img3{
+    width: 30%;
+    opacity: 0.5;
+}
+#img3:hover{
+    opacity: 1;
+    width: 32%;
+}
