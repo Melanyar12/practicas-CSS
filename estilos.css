@@ -91,3 +91,55 @@ a.item_menu:hover{
     opacity: 1;
     width: 32%;
 }
+#fondo{
+    /*fondo solo color*/
+    background-color: blueviolet;
+    height: 1500px;
+    width: 100%;
+    /*fondo para insertar una imagen*/
+    background-image: url(imagen.jpg);
+    background-repeat: no-repeat;
+    /*opacidad*/
+    background-size: cover;
+    opacity: 0.3;
+   /* background-attachment: fixed;*/
+    z-index: -1;
+    position: absolute;
+}
+#transicion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 1s;
+}
+#transicion:hover{
+    width: 200px;
+}
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo1{
+    from{background-color: violet;}
+    to{background-color: pink;}
+}
+#animacion2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ejemplo2;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo2{
+    0%{left: 0px; top: 0px;}
+    25%{left: 200px; top: 0px;}
+    50%{left: 200px; top: 200px;}
+    75%{left: 0px; top: 200px;}
+    100%{left: 0px; top: 0px;}
+}
