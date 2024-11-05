@@ -143,3 +143,46 @@ a.item_menu:hover{
     75%{left: 0px; top: 200px;}
     100%{left: 0px; top: 0px;}
 }
+.caja_de_texto{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+    padding: spx;
+    margin-bottom: spx;
+}
+#boton_borrar{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+#boton_enviar{
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: bold;
+}
+#boton_enviar:hover{
+    background-color: rgb(3,174,3);
+}
+#boton_borrar:hover{
+    background-color: rgb(255,94,94);
+}
+.contenedor{
+    display: flex;
+}
+.div_izquierda{
+    width: 50%;
+    height: 400px;
+    background-color: aquamarine;
+    margin-right: 10px;
+}
+.div_derecha{
+    width: 50%;
+    background-color: aqua;
+}
